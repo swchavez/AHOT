@@ -1,0 +1,295 @@
+    /* 
+    Reset
+    */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+
+
+/* 
+Header & Footer
+*/
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: black;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #344945;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.primary-footer{
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.socmed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socmed img {
+  padding: 10px;
+  height: 50px;
+  margin: 22px 0 22px 0;
+  vertical-align: top;
+}
+
+
+/* 
+Custom Styles
+*/
+
+body{
+  background: whitesmoke;
+  color: black;
+  margin: 0 250px;
+}
+
+h1, h2, h3, h4 {
+  color: #648880;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 20px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+p{
+  font-size: 15px;
+  font-weight: 381;
+  padding: 5px 0;
+}
+
+
+/*
+  ========================================
+index
+  ========================================
+*/
+.ahpdf{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 22%;
+  width: 50%;
+  padding: 10px 0;
+}
+
+
+
+
+/*
+  ========================================
+about
+  ========================================
+*/
+
+.otvideo p {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  padding-top: 50px;
+}
+
+
+
+/******************************************
+  /* Responsive STYLES
+  /*******************************************/
+  @media screen and (max-width: 850px) {
+/* 
+Reset
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* 
+Header & Footer
+*/
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: black;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #344945;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.primary-footer{
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.socmed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socmed img {
+  padding: 10px;
+  height: 50px;
+  margin: 22px 0 22px 0;
+  vertical-align: top;
+}
+
+
+/* 
+Custom Styles
+*/
+
+body{
+  background: whitesmoke;
+  color: black;
+  margin: 0 15px;
+}
+
+h1, h2, h3, h4 {
+  color: #648880;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 20px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+p{
+  font-size: 15px;
+  font-weight: 381;
+  padding: 5px 0;
+}
+
+
+
+/* 
+index
+*/
+.ahpdf{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 0%;
+  width: 100%;
+  padding: 10px 0;
+}
+
+
+/* 
+about
+*/
+
+.otvideo p {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  padding-top: 50px;
+}
+
+    
+  @media (min-width: 701px) and (max-width: 900px){
+    .intro{
+      background:;
+      width: 100%;
+    }
