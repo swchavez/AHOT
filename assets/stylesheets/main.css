@@ -140,15 +140,14 @@ about
   display: flex;
   justify-content: center;
   font-size: large;
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
-.otvideo video {
+.otvideo iframe {
   display: flex;
   justify-content: center;
   font-size: large;
-  margin-left: 25%;
-  width: 50%;
+  margin-left: 9%;
 }
 
 /******************************************
@@ -290,15 +289,15 @@ about
   display: flex;
   justify-content: center;
   font-size: medium;
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
-.otvideo video {
+.otvideo iframe {
   display: flex;
   justify-content: center;
   font-size: large;
-  margin-left: 10%;
-  width: 75%;
+  margin-left: 9%;
+  width: auto;
 }
 
   @media (min-width: 701px) and (max-width: 900px){
