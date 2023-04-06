@@ -143,7 +143,13 @@ about
   padding-top: 50px;
 }
 
-
+.otvideo video {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  margin-left: 25%;
+  width: 50%;
+}
 
 /******************************************
   /* Responsive STYLES
@@ -283,11 +289,18 @@ about
 .otvideo p {
   display: flex;
   justify-content: center;
-  font-size: large;
+  font-size: medium;
   padding-top: 50px;
 }
 
-    
+.otvideo video {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  margin-left: 10%;
+  width: 75%;
+}
+
   @media (min-width: 701px) and (max-width: 900px){
     .intro{
       background:;
