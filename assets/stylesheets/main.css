@@ -143,11 +143,22 @@ about
   padding-top: 15px;
 }
 
-.otvideo iframe {
+.youtubevideo {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-size: large;
-  margin-left: 9%;
+  width: auto;
+  padding-top: 15px;
+}
+
+.youtubevideo img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin-left: 10%;
 }
 
 /******************************************
@@ -292,13 +303,26 @@ about
   padding-top: 15px;
 }
 
-.otvideo iframe {
+
+.youtubevideo {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-size: large;
-  margin-left: 9%;
   width: auto;
+  padding-top: 15px;
 }
+
+.youtubevideo img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin-left: 10%;
+}
+
+
 
   @media (min-width: 701px) and (max-width: 900px){
     .intro{
